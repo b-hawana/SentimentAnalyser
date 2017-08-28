@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.apkglobal.implementationofsentimentapi.Main2Activity">
+<TextView
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="Say Something about Somone"
+    android:textAlignment="center"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ico_mic"
+        android:layout_gravity="center"
+        android:id="@+id/btn_speak"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Onn Mic to Speak"
+        android:textSize="15sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_text"/>
+</LinearLayout>
